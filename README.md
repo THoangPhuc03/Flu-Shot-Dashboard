@@ -11,12 +11,14 @@ Insights and recommendations are provided on the following key areas:
 - **Category 3:** Geographic distribution of flu shots by county  
 - **Category 4:** Temporal trends in flu shot administration  
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](#).  
-Targeted SQL queries regarding various business questions can be found [here](#).  
-An interactive Tableau dashboard used to report and explore flu shot trends can be found [here](#).
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/THoangPhuc03/Flu-Shot-Dashboard/blob/main/Flu_Shot.sql).  
+  
+An interactive Tableau dashboard used to report and explore flu shot trends can be found [here](https://public.tableau.com/views/FluShotDashboard_17418385495400/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
+
+You can find all the data i use [here](https://drive.google.com/drive/folders/1Tu5enmbM8ec0cuCufvfHg0_-j3XljNUy?usp=sharing)
 
 ## Data Structure & Initial Checks
-The healthcare system’s main database structure consists of four tables: conditions, encounters, immunizations, and patients, with a total row count of 50,000 records (assumed for context, as the exact count wasn’t provided). A description of each table is as follows:
+The healthcare system’s main database structure consists of four tables: conditions, encounters, immunizations, and patients. A description of each table is as follows:
 #### **1. conditions:**
 - This table tracks diagnoses or conditions associated with patient encounters.
   
