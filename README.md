@@ -21,15 +21,19 @@ You can find all the data i use [here](https://drive.google.com/drive/folders/1T
 The healthcare system’s main database structure consists of four tables: conditions, encounters, immunizations, and patients. A description of each table is as follows:
 #### **1. conditions:**
 - This table tracks diagnoses or conditions associated with patient encounters.
+- Number of rows: 156945.
   
 #### **2. encounters:** 
 - This table logs healthcare visits and their associated costs.
+- Number of rows: 455935.
   
 #### **3. immunizations:
 - This table is critical for tracking flu shot administration.
+- Number of rows: 165493
   
 #### **4. patients:**
 - This table provides demographic and geographic data for analysis.
+- Number of rows: 11363
 
 ![image](https://github.com/user-attachments/assets/f589cbed-ae73-48e6-94cb-ccaff5de9385)
 
@@ -71,9 +75,7 @@ In 2022, the healthcare system achieved an overall flu shot compliance rate of 8
 
 ### Category 4: Temporal Trends in Flu Shot Administration
 
-- **Main Insight 1:** The running sum of flu shots shows a steep increase from September to November, peaking at around 8,000 shots, aligning with the start of flu season.  
-- **Main Insight 2:** Flu shot administration was minimal from January to August, with a gradual increase starting in September, indicating seasonal vaccination patterns.  
-- **Main Insight 3:** December saw a slight decline in new flu shots, suggesting that most patients who intended to get vaccinated did so earlier in the fall.  
+- **Main Insight 1:** The running sum of flu shots shows a steep increase from September to November, peaking at around 8,000 shots, aligning with the start of flu season.   
 - **Main Insight 4:** The cumulative total of 8,101 flu shots by year-end reflects a successful vaccination campaign, though late-season efforts could be improved.  
 
 ![image](https://github.com/user-attachments/assets/e9ed4982-63bc-4a6f-9e48-20c8b78c0dcd)
@@ -85,9 +87,8 @@ In 2022, the healthcare system achieved an overall flu shot compliance rate of 8
 Based on the insights and findings above, we would recommend the [public health team] to consider the following:  
 
 - **Observation:** The 18-34 age group has the lowest compliance rate at 62.2%. **Recommendation:** Launch a digital marketing campaign targeting younger adults on social media platforms, emphasizing the importance of flu shots for community health.  
-- **Observation:** The "Other" race category has the lowest compliance rate at 80.0%. **Recommendation:** Conduct focus groups to understand barriers for this demographic and tailor outreach programs accordingly.  
-- **Observation:** Flu shot administration peaks in the fall but drops in December. **Recommendation:** Extend vaccination drives into early winter with incentives like free health checkups to capture late adopters.  
-- **Observation:** High compliance in the 0-17 and 65+ age groups. **Recommendation:** Leverage these groups as advocates to encourage vaccination among their peers and family members in lower-compliance age groups.  
+- **Observation:** The "Other" race category has the lowest compliance rate at 80.0%. **Recommendation:** Conduct focus groups to understand barriers for this demographic and tailor outreach programs accordingly.
+- **Observation:** High compliance in the 0-17 and 50+ age groups. **Recommendation:** Leverage these groups as advocates to encourage vaccination among their peers and family members in lower-compliance age groups.  
 
 ---
 
@@ -96,5 +97,4 @@ Based on the insights and findings above, we would recommend the [public health 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:  
 
 - **Assumption 1:** Patients with missing race data were categorized as "Other," which may skew compliance rates for this group.  
-- **Assumption 2:** County data was based on patient residence, but some patients may have received flu shots outside their home county, potentially affecting geographic trends.  
-- **Assumption 3:** The vaccination records for December were incomplete due to reporting delays, so the running sum may underrepresent late-season shots.
+- **Assumption 2:** County data was based on patient residence, but some patients may have received flu shots outside their home county, potentially affecting geographic trends.
