@@ -15,7 +15,7 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
   
 An interactive Tableau dashboard used to report and explore flu shot trends can be found [here](https://public.tableau.com/views/FluShotDashboard_17418385495400/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
-You can find all the data i use [here](https://drive.google.com/drive/folders/1Tu5enmbM8ec0cuCufvfHg0_-j3XljNUy?usp=sharing)
+You can find all the data i use [here](https://drive.google.com/drive/folders/1Tu5enmbM8ec0cuCufvfHg0_-j3XljNUy?usp=sharing) 
 
 ## Data Structure & Initial Checks
 The healthcare system’s main database structure consists of four tables: conditions, encounters, immunizations, and patients. A description of each table is as follows:
@@ -50,8 +50,8 @@ In 2022, the healthcare system achieved an overall flu shot compliance rate of 8
 ### Category 1: Flu Shot Compliance by Age Group
 
 - **Main Insight 1:** The 18-34 age group had the lowest compliance rate at 62.2%. This suggests a lack of engagement or awareness among younger adults, possibly due to perceived low risk of flu complications.  
-- **Main Insight 2:** The 0-17 age group had the highest compliance rate at 94.9%. This is likely driven by pediatric vaccination programs and parental oversight.  
-- **Main Insight 3:** The 65+ age group also showed high compliance at 91.2%, reflecting awareness of flu risks among older adults and targeted outreach efforts.  
+- **Main Insight 2:** The 50-64 age group had high compliance rate at 94.9%. This is likely driven by pediatric vaccination programs and parental oversight.  
+- **Main Insight 3:** The 50-64 and 65+ age group also showed high compliance at 91.2% and 96.3%, reflecting awareness of flu risks among older adults and targeted outreach efforts.  
 - **Main Insight 4:** The 35-49 age group’s compliance rate of 68.8% indicates a moderate engagement level, potentially due to competing priorities like work and family responsibilities.  
 
 ![image](https://github.com/user-attachments/assets/b4954305-1148-487f-860b-917f1ac55c37)
@@ -66,11 +66,6 @@ In 2022, the healthcare system achieved an overall flu shot compliance rate of 8
 ![image](https://github.com/user-attachments/assets/1d731c34-7e32-4c30-9f0a-1f3d7e80535a)
 
 ### Category 3: Geographic Distribution of Flu Shots by County
-
-- **Main Insight 1:** Plymouth County had the highest number of unvaccinated patients (80, Veronica McKenzie), indicating a need for targeted interventions in this area.  
-- **Main Insight 2:** Suffolk County (Boston area) showed a high vaccination rate, likely due to better access to healthcare facilities and urban outreach programs.  
-- **Main Insight 3:** Bristol County had a moderate number of unvaccinated patients (e.g., 52, Misty Upton), suggesting room for improvement in rural healthcare access.  
-- **Main Insight 4:** The map highlights that counties like Essex and Middlesex have fewer unvaccinated patients, reflecting stronger vaccination efforts in these regions.  
 
 ![image](https://github.com/user-attachments/assets/bd6150fc-5489-49cb-89ea-ce9666970d8b)
 
@@ -91,7 +86,6 @@ Based on the insights and findings above, we would recommend the [public health 
 
 - **Observation:** The 18-34 age group has the lowest compliance rate at 62.2%. **Recommendation:** Launch a digital marketing campaign targeting younger adults on social media platforms, emphasizing the importance of flu shots for community health.  
 - **Observation:** The "Other" race category has the lowest compliance rate at 80.0%. **Recommendation:** Conduct focus groups to understand barriers for this demographic and tailor outreach programs accordingly.  
-- **Observation:** Plymouth County has the highest number of unvaccinated patients. **Recommendation:** Increase mobile vaccination clinics in Plymouth County to improve access and awareness.  
 - **Observation:** Flu shot administration peaks in the fall but drops in December. **Recommendation:** Extend vaccination drives into early winter with incentives like free health checkups to capture late adopters.  
 - **Observation:** High compliance in the 0-17 and 65+ age groups. **Recommendation:** Leverage these groups as advocates to encourage vaccination among their peers and family members in lower-compliance age groups.  
 
